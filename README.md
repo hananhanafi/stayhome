@@ -1,7 +1,7 @@
 This project was made with luv <3
 
 ## Stayhome
-In this project I am using React Js and bootstrap. 
+In this project I am using React Js, bootstrap, and firebase. 
 This project builds upon the dataset of [https://github.com/CSSEGISandData/COVID-19](John Hopkins University) in CSV form which was converted to JSON Time Series format by [https://github.com/pomber/covid19](pomber).
 <!-- 
 In the project directory, you can run:

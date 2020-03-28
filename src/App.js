@@ -166,11 +166,11 @@ class App extends React.Component {
         </p>
         {/* <InputUser/> */}
         <form class="form-inline" onSubmit={this.searchHandler}>
-            <div class="form-group mx-sm-3 mb-2">
+            <div class="form-group mb-2">
                 <label for="inputSearch" class="sr-only">Search</label>
-                <input type="text" class="form-control" id="inputSearch" placeholder="Search..." ref={(input) => this.input = input}/>
+                <input type="text" class="form-control " id="inputSearch" placeholder="Search..." ref={(input) => this.input = input}/>
             </div>
-            <button type="submit" class="btn btn-primary mb-2">Search</button>
+            <button type="submit" class="btn btn-primary mb-2 text-center">Search</button>
         </form>
         {isEmpty && <p>Please input first before searching</p>}
         {rightKeyword && <CasesView confirmed={countryConfirmedCases} deaths={countryDeathsCases} recovered={countryRecoveredCases} country={region} date={countryUpdated}/>}
@@ -186,9 +186,9 @@ class App extends React.Component {
       </header>
         <h5>Made with luv by hanafi</h5>
         <span>
-        <a href="https://www.instagram.com/hananhnfi"><p className="px-3" style={{display:"inline"}}>Instagram <i class="fab fa-instagram"></i></p></a>
-        <a href="https://www.linkedin.com/in/hanan-hanafi-702897174"><p className="px-3" style={{display:"inline"}}>Linkedin <i class="fab fa-linkedin"></i></p></a>
-        <a href="https://twitter.com/han2afi"><p className="px-3" style={{display:"inline"}}>Twitter <i class="fab fa-twitter"></i></p></a>
+        <a href="https://www.instagram.com/hananhnfi"><p className="px-1" style={{display:"inline"}}>Instagram <i class="fab fa-instagram"></i></p></a>
+        <a href="https://www.linkedin.com/in/hanan-hanafi-702897174"><p className="px-1" style={{display:"inline"}}>Linkedin <i class="fab fa-linkedin"></i></p></a>
+        <a href="https://twitter.com/han2afi"><p className="px-1" style={{display:"inline"}}>Twitter <i class="fab fa-twitter"></i></p></a>
         </span>
     </div>
   );
