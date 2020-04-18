@@ -17,16 +17,16 @@ class Navbar extends Component{
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
                         <li  class="nav-item">
-                        <Link style={{color:"white"}} class="nav-link" to="/"><i class="fas fa-home"></i> BERANDA<span class="sr-only">(current)</span></Link>
+                        <Link style={{color:"white"}} className="nav-link" to="/"><i className="fas fa-home"></i> BERANDA<span className="sr-only">(current)</span></Link>
                         </li>
-                        <li class="nav-item">
-                        <Link style={{color:"white"}} class="nav-link" to="/berita"><i class="fas fa-newspaper"></i> BERITA</Link>
+                        <li className="nav-item">
+                        <Link style={{color:"white"}} className="nav-link" to="/berita"><i className="fas fa-newspaper"></i> BERITA</Link>
                         </li>
-                        <li class="nav-item">
-                        <Link style={{color:"white"}} class="nav-link" to="/konten"><i class="fas fa-info-circle"></i> INFORMASI</Link>
+                        <li className="nav-item">
+                        <Link style={{color:"white"}} className="nav-link" to="/konten"><i class="fas fa-book-reader"></i> EDUKASI</Link>
                         </li>
-                        <li class="nav-item">
-                        <Link style={{color:"white"}} class="nav-link" to="/hotline"><i class="fas fa-headset"></i> HOTLINE</Link>
+                        <li className="nav-item">
+                        <Link style={{color:"white"}} className="nav-link" to="/hotline"><i className="fas fa-headset"></i> HOTLINE</Link>
                         </li>
                         
                     </ul>

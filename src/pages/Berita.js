@@ -79,11 +79,11 @@ class Berita extends React.Component {
             {!loading && (
             <div className="container">
                 <div className="row">
-                <div className="col-3">
+                <div className="col-3 d-none d-md-block">
                 <WeatherCard/>
 
                 </div>
-                <div className="col-9">
+                <div className="col-md-9 col-12">
                     <div className="news-container " >
 
                     {dataArticle.map((article) => {

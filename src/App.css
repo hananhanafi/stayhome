@@ -1,3 +1,10 @@
+body{
+  font-size: 12px;
+}
+li > p{
+  font-size: .75em;
+}
+
 .App {
   text-align: center;
 }
